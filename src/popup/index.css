@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.card {
+  padding: 2em;
+}
