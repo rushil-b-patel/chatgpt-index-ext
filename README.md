@@ -1,3 +1,5 @@
+![Logo](/public/logo.png)
+
 ## Quick Start
 
 1. Clone the repository:
@@ -17,13 +19,18 @@ cd chatgpt-index-ext
 npm install
 ```
 
-4. Build the extension for production:
+4. Install & initialize tailwindcss:
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+5. Build the extension for production:
 
 ```bash
 npm run build
 ```
 
-5. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
+6. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
 
 ## Project Structure
 
